@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PGnKpAbPc+HJlQnarwrIm4j3ZaPH1EplZtxyaxkfo1QI7zmsDE+hLnjcPUugwqMVcCKSlV1qPn8T9yAyqRLJJA==",
+  "dgSpecHash": "Z9nk+62Es0Wm1aCUXV0GP866R3ulIENZGKISnQvk/8VkLR1V/n4C3qaKxr6zO718vaMDFCBwwrL8/3dxjl23ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Practics\\Kudravtcev\\day 2\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\day 2-3\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
