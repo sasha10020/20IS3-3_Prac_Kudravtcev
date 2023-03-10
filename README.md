@@ -1,5 +1,6 @@
 # 20IS3-3 
-Задание 1 [task1](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/prac_kudravtcev_zadanie_1)
+День 1-2 1 [task1](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/prac_kudravtcev_zadanie_1)
+День 2-3 2 [task2](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/day%202-3)
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кудрявцев+Александр)](https://git.io/typing-svg)
 ### Второй день практики
 #### Визуализация БД
