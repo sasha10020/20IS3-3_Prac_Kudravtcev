@@ -1,5 +1,5 @@
 # 20IS3-3 
-## Кудрявцев Александр
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кудрявцев+Александр)](https://git.io/typing-svg)
 ### Второй день практики
 #### Визуализация БД
 ![image](https://user-images.githubusercontent.com/123317540/219595635-503fe91e-546c-4b0f-8044-e2baae9190dd.png)
