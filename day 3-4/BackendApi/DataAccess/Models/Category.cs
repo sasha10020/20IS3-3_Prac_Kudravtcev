@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DataAccess.Models
+namespace WebApplication1.Models
 {
     public partial class Category
     {
         public Category()
         {
             Products = new HashSet<Product>();
-            Specifications = new HashSet<Specification>();
         }
 
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public bool? Deleted { get; set; }
+        public int IdCategory { get; set; }
+        public string? NameCategory { get; set; }
+        public int IdSpecification { get; set; }
+        public bool IsDeleted { get; set; }
 
+        public virtual Specification IdSpecificationNavigation { get; set; } = null!;
         public virtual ICollection<Product> Products { get; set; }
-        public virtual ICollection<Specification> Specifications { get; set; }
     }
 }

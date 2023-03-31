@@ -1,8 +1,8 @@
 using BusinessLogic.Interfaces;
 using BusinessLogic.Services;
-using DataAccess.Models;
 using DataAccess.Wrapper;
 using Microsoft.EntityFrameworkCore;
+using WebApplication1.Models;
 
 namespace BackendApi
 {
@@ -14,9 +14,9 @@ namespace BackendApi
 
             // Add services to the container.
 
-            builder.Services.AddDbContext<ShopsContext>(
+            builder.Services.AddDbContext<Online_shopContext>(
                 optionsAction: options => options.UseSqlServer(
-                    connectionString: "Server=desktop\\MSSQLSERVER_2;Database=Shops;Integrated Security = true;"));
+                    connectionString: "Server=(LocalDB)\\MSSQLLocalDB;Database=Online_shop;Integrated Security = true;"));
 
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();

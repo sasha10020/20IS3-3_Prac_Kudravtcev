@@ -1,14 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DataAccess.Models
+namespace WebApplication1.Models
 {
     public partial class Specification
     {
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public int? CategoryId { get; set; }
+        public Specification()
+        {
+            Categories = new HashSet<Category>();
+            SpecProducts = new HashSet<SpecProduct>();
+        }
 
-        public virtual Category? Category { get; set; }
+        public int IdSpecification { get; set; }
+        public string? NameSpec { get; set; }
+        public int SpecValue { get; set; }
+        public bool IsDeleted { get; set; }
+
+        public virtual ICollection<Category> Categories { get; set; }
+        public virtual ICollection<SpecProduct> SpecProducts { get; set; }
     }
 }

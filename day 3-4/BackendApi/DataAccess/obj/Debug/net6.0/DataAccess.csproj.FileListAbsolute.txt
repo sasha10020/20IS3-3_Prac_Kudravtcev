@@ -12,3 +12,25 @@ C:\Projects\Практика\Prac5\BackendApi\DataAccess\obj\Debug\net6.0\refint
 C:\Projects\Практика\Prac5\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 C:\Projects\Практика\Prac5\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
 C:\Projects\Практика\Prac5\BackendApi\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\user\Desktop\20IS3-3_Prac_Kudravtcev\day 3-4\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\20IS3-3_Prac_Kudravtcev\day 3-4\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\20IS3-3_Prac_Kudravtcev\day 3-4\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\20IS3-3_Prac_Kudravtcev\day 3-4\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\user\Desktop\20IS3-3_Prac_Kudravtcev\day 3-4\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\20IS3-3_Prac_Kudravtcev\day 3-4\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\user\Desktop\20IS3-3_Prac_Kudravtcev\day 3-4\BackendApi\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\user\Desktop\20IS3-3_Prac_Kudravtcev\day 3-4\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\user\Desktop\BackendApi\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\user\Desktop\BackendApi\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\user\Desktop\BackendApi\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\user\Desktop\BackendApi\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\user\Desktop\BackendApi\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

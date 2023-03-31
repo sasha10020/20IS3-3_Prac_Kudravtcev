@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Практика\\Prac5\\BackendApi\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\user\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Практика\\Prac5\\BackendApi\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\user\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Практика\\Prac5\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Projects\\Практика\\Prac5\\BackendApi\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Лизка\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Практика\\Prac5\\BackendApi\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\BackendApi\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Лизка\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

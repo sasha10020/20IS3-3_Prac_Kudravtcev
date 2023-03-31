@@ -1,8 +1,8 @@
 ﻿using BusinessLogic.Interfaces;
 using BusinessLogic.Services;
-using DataAccess.Models;
 using DataAccess.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Models;
 
 namespace BackendApi.Controllers
 {

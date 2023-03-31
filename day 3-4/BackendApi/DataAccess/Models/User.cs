@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DataAccess.Models
+namespace WebApplication1.Models
 {
     public partial class User
     {
@@ -11,16 +11,14 @@ namespace DataAccess.Models
             Orders = new HashSet<Order>();
         }
 
-        public int Id { get; set; }
-        public string? Surname { get; set; }
-        public string? Name { get; set; }
-        public string? Login { get; set; }
-        public string? Password { get; set; }
-        public string? Address { get; set; }
-        public int? RoleId { get; set; }
-        public bool? Deleted { get; set; }
+        public int IdUser { get; set; }
+        public string UserLogin { get; set; } = null!;
+        public string UserPassword { get; set; } = null!;
+        public DateTime RegDate { get; set; }
+        public bool IsDeleted { get; set; }
+        public int IdRole { get; set; }
 
-        public virtual Role? Role { get; set; }
+        public virtual UsersRole IdRoleNavigation { get; set; } = null!;
         public virtual ICollection<Cart> Carts { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
     }

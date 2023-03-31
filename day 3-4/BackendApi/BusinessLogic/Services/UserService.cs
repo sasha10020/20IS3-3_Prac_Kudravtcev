@@ -1,7 +1,7 @@
 ﻿using BusinessLogic.Interfaces;
-using DataAccess.Models;
 using DataAccess.Wrapper;
 using Microsoft.EntityFrameworkCore;
+using WebApplication1.Models;
 
 namespace BusinessLogic.Services
 {
@@ -20,7 +20,7 @@ namespace BusinessLogic.Services
             public Task<User> GetById(int id)
             {
                 var user = _repositoryWrapper.User
-                .FindByCondition(x => x.Id == id).First();
+                .FindByCondition(x => x.IdUser == id).First();
                 return Task.FromResult(user);
             }
             public Task Create(User model)
@@ -38,7 +38,7 @@ namespace BusinessLogic.Services
             public Task Delete(int id)
             {
                 var user = _repositoryWrapper.User
-                .FindByCondition(x => x.Id == id).First();
+                .FindByCondition(x => x.IdUser == id).First();
                 _repositoryWrapper.User.Delete(user);
                 _repositoryWrapper.Save();
                 return Task.CompletedTask;

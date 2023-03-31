@@ -1,5 +1,4 @@
 ﻿using DataAccess.Interfaces;
-using DataAccess.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,14 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
-
+using WebApplication1.Models;
 
 namespace DataAccess.Repositories
 {
     public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
-        protected ShopsContext RepositoryContext { get; set; }
-        public RepositoryBase(ShopsContext repositoryContext)
+        protected Online_shopContext RepositoryContext { get; set; }
+        public RepositoryBase(Online_shopContext repositoryContext)
         {
             RepositoryContext = repositoryContext;
         }
