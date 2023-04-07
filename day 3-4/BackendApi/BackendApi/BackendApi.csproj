@@ -20,4 +20,8 @@
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\user\Desktop\20IS3-3_Prac_Kudravtcev\day 3-4\BackendApi\BackendApi\.editorconfig" />
+  </ItemGroup>
+
 </Project>

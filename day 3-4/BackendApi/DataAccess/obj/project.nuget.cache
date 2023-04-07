@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QLauOvJDhD6PTjXNVfTiGw2ERp1vaVZSp8fACqrUCiCy3z19uI+BHYR275sFwUqQ70PNM8dhLTVbFqyLiopLFg==",
+  "dgSpecHash": "GfLPM635K2NQQiCtxY4918nh24fm3g8Qdkl73kcSd+a7L2uuVo/YhgOJcrwwWgI3s7MEu+CFsh1t9TUU4Fob6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Online_Market_App 6\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 3-4\\BackendApi\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

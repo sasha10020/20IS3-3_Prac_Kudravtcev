@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LQMk/2C4Eh8cy7bI/wWt1+kgW/aWVDPW2hCEpBSyuSC/2jI35poRqAZU24nDOwugR5I+Iv6SGrVxQ7EKN7CC6Q==",
+  "dgSpecHash": "eCjTdSqMhLyCtBHbmYnEjf8OqXFtovt+fNXJvZGSvfMD05cBKxLRtmlBapgpmfpeoHZyflRjAJ37k+YHslHi2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Online_Market_App 6\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 3-4\\BackendApi\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jo4TdVzWWlXp4CIF/L91Cxq1OSrL385o+82mxZFLs1HY+w5RwAgMEnZR/PONRgPyBAsb8qvAFE8m3OWiJLp5Sg==",
+  "dgSpecHash": "qrPegGhLbb8y3l69BoqDJ34u3BG8Im6RjBWGlBLu/DgPzi3OysY/s77NSQeLV9adqlIlPADd3jpWq8RhpCWZlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Online_Market_App 6\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 3-4\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
