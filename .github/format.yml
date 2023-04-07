@@ -1,20 +1,29 @@
-name: dotnet format
+name: .NET Core CI
 on:
-push:
-paths:
-- "**.cs"
-- ".editorconfig"
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 jobs:
-check-format:
-runs-on: windows-latest
-steps:
-- name: Setup .NET Core
-uses: actions/setup-dotnet@v1
-with:
-dotnet-version: '6.0.x'
-- name: Install dotnet-format tool
-run: dotnet tool install -g dotnet-format
-- name: Check out code
-uses: actions/checkout@v2
-- name: Run dotnet format
-run: dotnet-format --folder --check --verbosity diagnostic
+  build:
+  
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 7.0.102
+          
+      - name: Install dependencies
+        run: dotnet restore
+        working-directory: Practic Day 6/WebShop-Api
+        
+      - name: Build 
+        run: dotnet build --configuration Release 
+        working-directory: day 3-4/BackendApi
+        
+      - name: Test
+        run: dotnet test --no-restore --verbosity normal
+        working-directory: day 3-4/BackendApi
