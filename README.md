@@ -6,6 +6,9 @@
 День 3-4 5 [task5](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/day%203-4)
 
 День 2-3 [labeloftask](https://github.com/users/sasha10020/projects/1)
+
+День 5-6 [task7](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/day%204-6)
+
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кудрявцев+Александр)](https://git.io/typing-svg)
 ### Второй день практики
 #### Визуализация БД
