@@ -1,50 +1,40 @@
-﻿using BusinessLogic.Interfaces;
-using DataAccess.Wrapper;
-using Microsoft.EntityFrameworkCore;
-using WebApplication1.Models;
-
+﻿using Domain.Interfaces;
+using Domain.Models;
 namespace BusinessLogic.Services
 {
-  
-        public class UserService : IUserService
+    public class UserService : IUserService
+    {
+        private IRepositoryWrapper _repositoryWrapper;
+        public UserService(IRepositoryWrapper repositoryWrapper)
         {
-            private IRepositoryWrapper _repositoryWrapper;
-            public UserService(IRepositoryWrapper repositoryWrapper)
-            {
-                _repositoryWrapper = repositoryWrapper;
-            }
-            public Task<List<User>> GetAll()
-            {
-                return _repositoryWrapper.User.FindAll().ToListAsync();
-            }
-            public Task<User> GetById(int id)
-            {
-                var user = _repositoryWrapper.User
-                .FindByCondition(x => x.IdUser == id).First();
-                return Task.FromResult(user);
-            }
-            public Task Create(User model)
-            {
-                _repositoryWrapper.User.Create(model);
-                _repositoryWrapper.Save();
-                return Task.CompletedTask;
-            }
-            public Task Update(User model)
-            {
-                _repositoryWrapper.User.Update(model);
-                _repositoryWrapper.Save();
-                return Task.CompletedTask;
-            }
-            public Task Delete(int id)
-            {
-                var user = _repositoryWrapper.User
-                .FindByCondition(x => x.IdUser == id).First();
-                _repositoryWrapper.User.Delete(user);
-                _repositoryWrapper.Save();
-                return Task.CompletedTask;
-            }
+            _repositoryWrapper = repositoryWrapper;
         }
-
-
-    
+        public async Task<List<User>> GetAll()
+        {
+            return await _repositoryWrapper.User.FindAll();
+        }
+        public async Task<User> GetById(int id)
+        {
+            var user = await _repositoryWrapper.User
+            .FindByCondition(x => x.IdUser == id);
+            return user.First();
+        }
+        public async Task Create(User model)
+        {
+            await _repositoryWrapper.User.Create(model);
+            _repositoryWrapper.Save();
+        }
+        public async Task Update(User model)
+        {
+            _repositoryWrapper.User.Update(model);
+            _repositoryWrapper.Save();
+        }
+        public async Task Delete(int id)
+        {
+            var user = await _repositoryWrapper.User
+            .FindByCondition(x => x.IdUser == id);
+            _repositoryWrapper.User.Delete(user.First());
+            _repositoryWrapper.Save();
+        }
+    }
 }

@@ -1,8 +1,8 @@
-using BusinessLogic.Interfaces;
+using Domain.Models;
+using Domain.Interfaces;
 using BusinessLogic.Services;
 using DataAccess.Wrapper;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Models;
 
 namespace BackendApi
 {
@@ -12,14 +12,13 @@ namespace BackendApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
             builder.Services.AddDbContext<Online_shopContext>(
-                optionsAction: options => options.UseSqlServer(
-                    connectionString: "Server=(LocalDB)\\MSSQLLocalDB;Database=Online_shop;Integrated Security = true;"));
+                options => options.UseSqlServer("Server=(LocalDB)\\MSSQLLocalDB;Database=Online_shop1;Integrated Security=true;"));
 
-            builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+            builder.Services.AddScoped<Domain.Interfaces.IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();
+
+            // Add services to the container.
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -46,6 +45,3 @@ namespace BackendApi
         }
     }
 }
-
-
-

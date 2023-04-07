@@ -1,8 +1,7 @@
-﻿using BusinessLogic.Interfaces;
-using BusinessLogic.Services;
-using DataAccess.Interfaces;
+﻿using Domain.Models;
+using Domain.Interfaces;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Models;
 
 namespace BackendApi.Controllers
 {
@@ -15,13 +14,11 @@ namespace BackendApi.Controllers
         {
             _userService = userService;
         }
-
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             return Ok(await _userService.GetAll());
         }
-
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -45,6 +42,5 @@ namespace BackendApi.Controllers
             await _userService.Delete(id);
             return Ok();
         }
-
     }
 }

@@ -1,20 +1,19 @@
-﻿using DataAccess.Interfaces;
+﻿using Domain.Models;
+using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebApplication1.Models;
+using DataAccess.Repositories;
 
-namespace DataAccess.Repositories
+namespace Domain.Repositories
 {
-    internal class UserRepository : RepositoryBase<User>, IUserRepository
+    public class UserRepository : RepositoryBase<User>, IUserRepository
     {
-        public UserRepository(Online_shopContext repositoryContext) 
-            : base(repositoryContext)
+        public UserRepository(Online_shopContext repositoryContext)
+            : base(repositoryContext) 
         {
         }
-    
-
     }
 }
