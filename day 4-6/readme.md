@@ -1,5 +1,6 @@
 ### Задание 7
-###Создание шаблона
+
+#### Создание шаблона
 
 ![image](https://user-images.githubusercontent.com/123317540/230579649-aa1b754d-988a-423e-8bec-8ba917a331ec.png)
 ![image](https://user-images.githubusercontent.com/123317540/230579675-a23ec8c8-7a33-4f2a-88ce-d60ae9f4c5d8.png)
