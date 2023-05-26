@@ -1,9 +1,9 @@
 # 20IS3-3 
-День 1-2 1 [task1](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/prac_kudravtcev_zadanie_1) 
+День 1-2 [task1](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/prac_kudravtcev_zadanie_1) 
 
-День 2-3 2 [task2](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/day%202-3)
+День 2-3 [task2](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/day%202-3)
 
-День 3-4 5 [task5](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/day%203-4)
+День 3-4 [task5](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/day%203-4)
 
 День 2-3 [labeloftask](https://github.com/users/sasha10020/projects/1)
 
