@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Practics\\Kudravtcev\\z1\\prac_kudravtcev\\prac_kudravtcev.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\prac_kudravtcev_zadanie_1\\prac_kudravtcev.csproj",
       "projectName": "prac_kudravtcev",
-      "projectPath": "C:\\Users\\user\\Desktop\\Practics\\Kudravtcev\\z1\\prac_kudravtcev\\prac_kudravtcev.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\prac_kudravtcev_zadanie_1\\prac_kudravtcev.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Practics\\Kudravtcev\\z1\\prac_kudravtcev\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\prac_kudravtcev_zadanie_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
