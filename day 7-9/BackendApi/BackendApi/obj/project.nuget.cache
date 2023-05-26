@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QPjpTGmwWNDW5glClef1ClPU5QMotQBrfOOE3vnStNlgoL02JuObS6Heema5NGoggSGfbChmIGoTquv8sFc7jA==",
+  "dgSpecHash": "4sBCfo/e4WclyA8UORQthFN/t6nROO9iudEjVBW8/J8IhvpGZW6o4ivvDbCCkhTCYPUWNqRgrQ+Ce/cLYNQ34A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 7-9\\BackendApi\\BackendApi\\BackendApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mapster\\7.4.0-pre06\\mapster.7.4.0-pre06.nupkg.sha512",
