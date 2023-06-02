@@ -1,0 +1,1 @@
+dotnet test ~/day 9/BackendApi/BusinessLogic.Tests/BusinessLogic.Tests.csproj
