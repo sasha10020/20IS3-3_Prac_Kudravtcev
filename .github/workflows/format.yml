@@ -18,12 +18,12 @@ jobs:
           
       - name: Install dependencies
         run: dotnet restore
-        working-directory: day 3-4/BackendApi
+        working-directory: day 4-6/BackendApi
         
       - name: Build 
         run: dotnet build --configuration Release 
-        working-directory: day 3-4/BackendApi
+        working-directory: day 4-6/BackendApi
         
       - name: Test
         run: dotnet test --no-restore --verbosity normal
-        working-directory: day 3-4/BackendApi
+        working-directory: day 4-6/BackendApi
