@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {}
+    "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\user\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\BackendApi\\BusinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\BackendApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\BackendApi\\Domain\\Domain.csproj"
+              "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -79,18 +79,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\BackendApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\BackendApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\BackendApi\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\BackendApi\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

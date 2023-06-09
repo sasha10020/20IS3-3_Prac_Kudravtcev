@@ -2514,11 +2514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\user\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\BackendApi\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2535,8 +2535,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\BackendApi\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\BackendApi\\Domain\\Domain.csproj"
+            "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 9\\BackendApi\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2586,7 +2586,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
