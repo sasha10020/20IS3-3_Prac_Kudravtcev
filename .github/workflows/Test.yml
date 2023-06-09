@@ -1,2 +1,29 @@
-dotnet run test ~/day 9/BackendApi/BusinessLogic.Tests/BusinessLogic.Tests.csproj
-
+name: Test
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+  
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 7.0.102
+          
+      - name: Install dependencies
+        run: dotnet restore
+        working-directory: day 9/BackendApi
+        
+      - name: Build 
+        run: dotnet build --configuration Release 
+        working-directory: day 9/BackendApi
+        
+      - name: Test
+        run: dotnet test --no-restore --verbosity normal
+        working-directory: day 9/BackendApi
