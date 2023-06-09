@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L6UmCivlyX11AZlGE99KWH61FB9ydo83xNueuDuA4B3T3knuQZsGKfRAZnmJSYFIYE4DqDDghbV9zZgW3yg6/g==",
+  "dgSpecHash": "ISLeBN3d73hJnQJWYVaYyp7ri1Uap10OVnBndvPtVDLjWY3yG9Int/V5Vw22FALcL77CvAi2Zu5IYBsNCLCurg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\day 10\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 10\\BackendApi\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

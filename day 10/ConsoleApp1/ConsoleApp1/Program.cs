@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Nodes;
 using Telegram.Bot;
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Polling;
@@ -45,6 +47,17 @@ namespace ConsoleApp1
         }
         static async Task Main(string[] args)
         {
+            HttpClient client = new HttpClient();
+            var result = await client.GetAsync("https://localhost:7178/api/User");
+            Console.WriteLine(result);
+
+            var test = await result.Content.ReadAsStringAsync();
+            Console.WriteLine(test);
+            Domain.Models.User[] user = JsonConvert.DeserializeObject<Domain.Models.User[]>(test);
+            foreach(var good in user)
+            {
+                Console.WriteLine(good.IdUser + " " + good.UserLogin + " " + good.IsDeleted);
+            }
             var botClient = new TelegramBotClient("6106201495:AAFFD10Hq56Ce55f-uQuhnGEhD7kfzayibA");
             using CancellationTokenSource cts = new();
 
@@ -62,9 +75,7 @@ namespace ConsoleApp1
             var me = await botClient.GetMeAsync();
 
             Console.WriteLine($"Начало диолога для @{me.Username}");
-            HttpClient client = new HttpClient();
-            var result = await client.GetAsync("https://localhost:7178/api/User");
-
+   
             Console.ReadLine();
 
             cts.Cancel();

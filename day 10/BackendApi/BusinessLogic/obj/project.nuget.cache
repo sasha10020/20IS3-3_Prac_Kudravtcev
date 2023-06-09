@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T3N6KxUp7yJ/KE6K/1N1AjfcfT9NcMf8y3GBCINsHTq/GIbsI5Jk9rZNroZnsFmniltXNcjUT9bqyxTotNnSeA==",
+  "dgSpecHash": "DJbkc8roBD0t+VFay+vhNqwEwVFWBRb84ZLkN2VtWk1yTVBTe+xsaIwWcYniPi05zDOF51M3NEbuW4lOuKYBZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\day 10\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\20IS3-3_Prac_Kudravtcev\\day 10\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mapster\\7.4.0-pre06\\mapster.7.4.0-pre06.nupkg.sha512",
