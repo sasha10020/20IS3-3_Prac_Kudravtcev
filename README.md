@@ -13,6 +13,8 @@
 
 День 9 [task9](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/day%209)
 
+День 10 site [task 10](https://github.com/sasha10020/20IS3-3_Prac_Kudravtcev/tree/main/site).
+
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кудрявцев+Александр)](https://git.io/typing-svg)
 ### Второй день практики
 #### Визуализация БД
