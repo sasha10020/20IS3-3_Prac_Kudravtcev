@@ -12,29 +12,51 @@ namespace ConsoleApp1
     internal class Program
     {
 
+        //static async Task HandleUpdteAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
+        //{
+        //    if (update.Message is not { } message)
+        //        return;
+        //    if (message.Text is not { } messageText)
+        //        return;
+        //    var chatId = message.Chat.Id;
+
+        //    Console.WriteLine($"Получно '{messageText}' сообщение в чате {chatId}.");
+
+        //    Message sentMessage = await botClient.SendTextMessageAsync(
+        //        chatId: chatId,
+        //        text: "Вы написали:\n" + messageText,
+        //        cancellationToken: cancellationToken);
+
+        //    if (message.Text == "Проверка" | message.Text == "проверка")
+        //    {
+        //        await botClient.SendTextMessageAsync(
+        //        chatId: chatId,
+        //        text: "Проверка прошла успешно.",
+        //        cancellationToken: cancellationToken);
+        //    }
+        //}
+
+
         static async Task HandleUpdteAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
         {
+            // Only process Message updates: https://core.telegram.org/bots/api#message
             if (update.Message is not { } message)
                 return;
+            // Only process text messages
             if (message.Text is not { } messageText)
                 return;
+
             var chatId = message.Chat.Id;
 
-            Console.WriteLine($"Получно '{messageText}' сообщение в чате {chatId}.");
+            Console.WriteLine($"Received a '{messageText}' message in chat {chatId}.");
 
+            // Echo received message text
             Message sentMessage = await botClient.SendTextMessageAsync(
                 chatId: chatId,
-                text: "Вы написали:\n" + messageText,
+                text: "You said:\n" + messageText,
                 cancellationToken: cancellationToken);
-
-            if (message.Text == "Проверка" | message.Text == "проверка")
-            {
-                await botClient.SendTextMessageAsync(
-                chatId: chatId,
-                text: "Проверка прошла успешно.",
-                cancellationToken: cancellationToken);
-            }
         }
+
         static Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
         {
             var ErrorMessage = exception switch
