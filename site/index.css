@@ -1,1 +1,33 @@
 h1{color: red;}
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #c1eefa;
+    color: black;
+}
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+.navbar a {
+   display : block;
+   color : azure;
+   text-align : center;
+   padding : 14px 20px;
+   float : left;
+   text-decoration : none;
+}
+.navbar a.right {
+       
+        float: right;
+}
+.navbar a:hover{
+    background-color : whitesmoke;
+    color :black;
+}
+body{margin: 0;}
+.fakeing{
+    background-color : gray;
+    width:100%;
+    padding:20px;
+}
